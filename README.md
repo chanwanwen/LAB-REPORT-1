@@ -36,22 +36,34 @@ Breadth-first search (BFS)
 <img width="1088" height="478" alt="image" src="https://github.com/user-attachments/assets/e35b114e-e849-4bf1-8e67-89d62692cda6" />
 <img width="1088" height="516" alt="image" src="https://github.com/user-attachments/assets/37bdc9a3-e274-41f9-9a86-5c4585e06754" />
 Process path: A → B → D → C → E → G → H
+
 Levels: 
+
 L0 {A}
+
 L1 {B, D}
+
 L2 {C, E,G}
+
 L3 {H}
+
 Goal path: A → B  → E → H (3 edges), which is the shortest path from A to H. 
 
 Depth-First Search (DFS)
 <img width="1088" height="514" alt="image" src="https://github.com/user-attachments/assets/0779204d-0694-409f-9bf5-a31a558fcdd1" />
 <img width="1088" height="503" alt="image" src="https://github.com/user-attachments/assets/d32a1ea9-17df-4066-8b28-8a80f79ac29f" />
 Process path: A → B  → C → E → H
+
 Levels: 
+
 L0 {A}
+
 L1 {B}
+
 L2 {C, E}
+
 L3 {H}
+
 Goal path: A → B  → E → H (3 edges), which is the shortest path from A to H. 
 
 Comparison between BFS vs DFS
