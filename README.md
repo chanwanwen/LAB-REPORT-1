@@ -4,7 +4,8 @@ A Streamlit app that runs Breadth-First Search (BFS) and Depth-First Search (DFS
 
 Live Application: https://lab-report-1-sodpbfkbxfmtftdtjpfptb.streamlit.app/
 
-<img width="1088" height="514" alt="image" src="https://github.com/user-attachments/assets/fdc3b985-6908-49fd-a184-8ab5df53fa7a" />
+<img width="1088" height="488" alt="image" src="https://github.com/user-attachments/assets/a631ee75-04db-4318-a94b-c85a09e2a937" />
+
 
 
 Features: 
@@ -20,22 +21,24 @@ Features:
 
 The discussion for the level and process path will be done with the assumption of the end goal is no goal.
 Breadth-first search (BFS) 
-<img width="1088" height="517" alt="image" src="https://github.com/user-attachments/assets/3220cdb5-e8be-4f33-9ed6-5422f9cf48f0" />
-<img width="1088" height="514" alt="image" src="https://github.com/user-attachments/assets/9023be8d-f994-45cb-83ac-1edf5ecbddd1" />
+<img width="1088" height="490" alt="image" src="https://github.com/user-attachments/assets/eb917421-3b43-4c7f-8ebd-ebe880acfc65" />
+
 Depth-First Search (DFS)
-<img width="1088" height="512" alt="image" src="https://github.com/user-attachments/assets/f03d29aa-6e89-421d-ba90-28f933907375" />
-<img width="1088" height="514" alt="image" src="https://github.com/user-attachments/assets/12c20e9d-e22b-4346-afc4-440a9505bae4" />
+<img width="1088" height="479" alt="image" src="https://github.com/user-attachments/assets/cda42f66-e366-4529-a9fc-19f6bf4fcc49" />
+
 
 Comparison between BFS vs DFS
-<img width="1088" height="512" alt="image" src="https://github.com/user-attachments/assets/55172769-c19a-4281-8fb0-587939dc5e53" />
+<img width="1916" height="888" alt="image" src="https://github.com/user-attachments/assets/79f0bb76-472d-47d9-8671-8c7455c5b216" />
 
-The discussion for the level and process path will be done with the assumption of the end goal is H.
-<img width="1088" height="472" alt="image" src="https://github.com/user-attachments/assets/41c7608e-6798-42a4-8731-929466c3fc75" />
+
+The discussion for the level and process path will be done with the assumption of the end goal is G.
+<img width="1088" height="473" alt="image" src="https://github.com/user-attachments/assets/254408f1-86c6-4fca-a8b3-908ce3ee4779" />
+
 
 Breadth-first search (BFS)
-<img width="1088" height="478" alt="image" src="https://github.com/user-attachments/assets/e35b114e-e849-4bf1-8e67-89d62692cda6" />
-<img width="1088" height="516" alt="image" src="https://github.com/user-attachments/assets/37bdc9a3-e274-41f9-9a86-5c4585e06754" />
-Process path: A → B → D → C → E → G → H
+<img width="1088" height="481" alt="image" src="https://github.com/user-attachments/assets/5330daff-6b69-4c9a-b923-735af1581b85" />
+
+Process path: A → B  → D → C → E → G
 
 Levels: 
 
@@ -43,16 +46,14 @@ L0 {A}
 
 L1 {B, D}
 
-L2 {C, E,G}
+L2 {C, E, G}
 
-L3 {H}
-
-Goal path: A → B  → E → H (3 edges), which is the shortest path from A to H. 
+Goal path: A → B  → G (2 edges), which is the shortest path from A to G. 
 
 Depth-First Search (DFS)
-<img width="1088" height="514" alt="image" src="https://github.com/user-attachments/assets/0779204d-0694-409f-9bf5-a31a558fcdd1" />
-<img width="1088" height="503" alt="image" src="https://github.com/user-attachments/assets/d32a1ea9-17df-4066-8b28-8a80f79ac29f" />
-Process path: A → B  → C → E → H
+<img width="1088" height="490" alt="image" src="https://github.com/user-attachments/assets/922ffd70-f759-46c8-a11d-029eabe2386f" />
+
+Process path: A → B  → C → E → H → F → G
 
 Levels: 
 
@@ -64,7 +65,10 @@ L2 {C, E}
 
 L3 {H}
 
-Goal path: A → B  → E → H (3 edges), which is the shortest path from A to H. 
+L4 {F, G}
+
+Goal path: A → B  → E → H → G (4 edges), which is the shortest path from A to G.  
 
 Comparison between BFS vs DFS
-<img width="1088" height="488" alt="image" src="https://github.com/user-attachments/assets/b8cac566-b11a-48b9-a746-7722c2609656" />
+![Uploading image.png…]()
+
