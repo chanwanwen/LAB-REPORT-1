@@ -70,5 +70,6 @@ L4 {F, G}
 Goal path: A → B  → E → H → G (4 edges), which is the shortest path from A to G.  
 
 Comparison between BFS vs DFS
-![Uploading image.png…]()
+<img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/0f979c7c-9541-4ce4-92b6-45ed6321abe8" />
+
 
